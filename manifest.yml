@@ -1,0 +1,9 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: microservicedemo
+  buildpack: java_buildpack
+  path: ./target/microservicedemo-1.0-SNAPSHOT.jar
+  memory: 256M
+  random-route: true
